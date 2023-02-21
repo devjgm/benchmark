@@ -88,7 +88,7 @@ jobs:
 
       - uses: lukka/get-cmake@latest
         with:
-          cmakeVersion: 3.10.0
+          cmakeVersion: 3.16.3
 
       # With cmake 3.10 on Windows, we can't use the nicer -S or -H flags to
       # cmake, so we create the build dir and run the build from within there.
